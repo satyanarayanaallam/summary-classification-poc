@@ -1,0 +1,17 @@
+[
+  {
+    "summary": "Payment of $1200 was made by ACME Corp on 2025-09-01 for invoice #INV-100.",
+    "doc_type": "INVOICE",
+    "doc_code": "INV001"
+  },
+  {
+    "summary": "The bank statement shows a withdrawal of $500 on 2025-08-30 from account 12345678.",
+    "doc_type": "BANK_STATEMENT",
+    "doc_code": "BS001"
+  },
+  {
+    "summary": "John Doe submitted a leave request for 3 days starting 2025-09-10.",
+    "doc_type": "LEAVE_REQUEST",
+    "doc_code": "LR001"
+  }
+]
