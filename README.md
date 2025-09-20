@@ -83,30 +83,52 @@ tests/ # Unit tests
 
 Installation
 
-Clone the repo
+1. Clone the repository
 
+```bash
 git clone <repo_url>
 cd summary-classification-poc
+```
 
+2. Create and activate a Python virtual environment
 
-Create virtual environment
+- Linux / macOS
 
+```bash
 python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
+source venv/bin/activate
+```
 
 
-Install dependencies
+ Windows (PowerShell)
+ 
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+- Windows (Command Prompt)
 
+```cmd
+python -m venv venv
+venv\Scripts\activate.bat
+```
+
+3. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
+4. Create a `.env` file (example in `.env.example`)
 
-Create .env file
-
+```text
 GEMINI_API_KEY=<your_gemini_api_key>
 VECTOR_DB_API_KEY=<your_vector_db_key>
+```
 
 Usage (POC with CrewAI)
+
+```python
 from src.agents.crew_ai_agent import CrewAIAgent
 
 # Example summary
@@ -121,6 +143,7 @@ result = agent.run(summary)
 print("Summary Type:", result['summary_type'])
 print("Document Code:", result['doc_code'])
 print("Evaluation Metrics:", result['metrics'])
+```
 
 
 The CrewAI agent:
@@ -169,9 +192,8 @@ Notes:
 
 ```powershell
 python -m venv venv
-; .\venv\Scripts\Activate.ps1
+.\venv\Scripts\Activate.ps1
 ```
-
 2. Install dependencies:
 
 ```powershell
