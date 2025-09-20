@@ -158,46 +158,12 @@ Add confidence scoring & threshold-based classification fallback
 Extend CrewAI orchestration for multi-agent workflows and auto-retries
 
 
----
+Notes:
+- The `GeminiClient` is a simple heuristic extractor (no external LLM calls).
+- `VectorDBClient` is an in-memory placeholder for demo purposes.
+- Replace stubs and add `.env` keys to integrate real services.
 
-This updated README now:  
-- Clearly emphasizes **Summary Classification**  
-- Includes **CrewAI agentic orchestration**  
-- Provides **sample data**  
-- Explains **live evaluation via Deepeval**  
-
----
-
-If you want, I can **also draft the `crew_ai_agent.py` scaffold** next, fully modular and Copilot-friendly, so you can start coding immediately.  
-
-Do you want me to do that?
-
----
-
-# Scaffold created
-
-I parsed this README and created a minimal runnable scaffold that mirrors the POC flow. Files and directories added (minimal stubs to run locally):
-
-```
-src/
-├── agents/crew_ai_agent.py       # CrewAI orchestrator scaffold (POC flow)
-├── config/__init__.py            # config helper
-├── models/gemini_client.py       # heuristic triplet extractor stub
-├── db/vector_db.py               # in-memory vector DB placeholder
-├── services/triplet_service.py   # ties extractor + normalization
-├── services/retrieval_service.py # retrieval logic
-├── services/evaluation_service.py# tiny evaluation stub
-├── utils/normalization.py        # masking & normalization utilities
-├── main.py                       # example runner
-data/
-├── summaries.json                # sample summaries dataset
-tests/
-├── test_sample.py                # basic unit test
-requirements.txt                  # minimal deps (pytest)
-.env.example                      # example env vars
-```
-
-## How to run (Windows)
+## How to run (Windows PowerShell)
 
 1. Create a virtual environment and activate it:
 
@@ -223,7 +189,3 @@ python -m src.main
 ```powershell
 python -m pytest -q
 ```
-
-Notes:
-- The LLM client (`GeminiClient`) is a heuristic stub to keep the POC offline.
-- Replace the stubs with real API clients and provide `.env` keys to integrate external services.
