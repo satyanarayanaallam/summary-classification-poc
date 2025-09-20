@@ -40,20 +40,23 @@ This proof-of-concept project performs **summary classification** using **triple
 
 ## Project Structure
 
-
-
-src/
-├── agents/ # CrewAI orchestrator and agent scaffolds
-│ └── crew_ai_agent.py
-├── config/ # Environment & settings
-├── models/ # LLM clients (Gemini)
-├── db/ # Vector DB client
-├── services/ # Triplet service, retrieval, evaluation
-├── utils/ # Normalization, logging
-├── main.py # Example POC flow (single summary run)
-data/ # Sample summaries with types and codes
-tests/ # Unit tests
-.env # API keys
+```
+summary-classification-poc/
+├── src/
+│   ├── agents/crew_ai_agent.py
+│   ├── config/__init__.py
+│   ├── models/gemini_client.py
+│   ├── db/vector_db.py
+│   ├── services/triplet_service.py
+│   ├── services/retrieval_service.py
+│   ├── services/evaluation_service.py
+│   ├── utils/normalization.py
+│   └── main.py
+├── data/summaries.json
+├── tests/test_sample.py
+├── requirements.txt
+└── .env.example
+```
 
 
 ---
@@ -86,7 +89,7 @@ Installation
 1. Clone the repository
 
 ```bash
-git clone <repo_url>
+git clone https://github.com/satyanarayanaallam/summary-classification-poc.git
 cd summary-classification-poc
 ```
 
