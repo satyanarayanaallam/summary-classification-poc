@@ -83,7 +83,7 @@ summary-classification-poc/
     "doc_code": "LR001"
   }
 ]
-
+```
 Installation
 
 1. Clone the repository
