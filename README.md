@@ -10,6 +10,7 @@ This proof-of-concept project performs **summary classification** using **triple
 ---
 
 ## Architecture
+```
 [User Summary Input]
 │
 ▼
@@ -24,7 +25,7 @@ This proof-of-concept project performs **summary classification** using **triple
 ├──> Retrieval Agent (Query → Vector DB → Summary Type & Code)
 │
 └──> Deepeval Evaluation Agent (Live Metrics)
-
+```
 
 ---
 
