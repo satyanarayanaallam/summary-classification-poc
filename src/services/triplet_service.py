@@ -1,6 +1,6 @@
 """Service that ties the LLM client and normalization utilities."""
-from src.models.gemini_client import GeminiClient
-from src.utils.normalization import normalize_triplet
+from models.gemini_client import GeminiClient
+from utils.normalization import normalize_triplet
 from typing import List, Tuple
 
 

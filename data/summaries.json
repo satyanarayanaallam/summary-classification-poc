@@ -1,17 +1,1502 @@
 [
-  {
-    "summary": "Payment of $1200 was made by ACME Corp on 2025-09-01 for invoice #INV-100.",
-    "doc_type": "INVOICE",
-    "doc_code": "INV001"
-  },
-  {
-    "summary": "The bank statement shows a withdrawal of $500 on 2025-08-30 from account 12345678.",
-    "doc_type": "BANK_STATEMENT",
-    "doc_code": "BS001"
-  },
-  {
-    "summary": "John Doe submitted a leave request for 3 days starting 2025-09-10.",
-    "doc_type": "LEAVE_REQUEST",
-    "doc_code": "LR001"
-  }
+    {
+        "summary": "This invoice (INV001) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. Invoice INV001 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV001"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV002, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. This invoice (INV002) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV002"
+    },
+    {
+        "summary": "Invoice INV003 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. This invoice (INV003) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV003"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV004, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV004"
+    },
+    {
+        "summary": "Invoice INV005 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Invoice INV005 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV005"
+    },
+    {
+        "summary": "Invoice INV006 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV006"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV007, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV007"
+    },
+    {
+        "summary": "Invoice INV008 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. A detailed billing notice identified as INV008, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV008"
+    },
+    {
+        "summary": "Invoice INV009 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV009"
+    },
+    {
+        "summary": "This invoice (INV010) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. A detailed billing notice identified as INV010, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV010"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV011, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. Invoice INV011 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV011"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV012, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. Invoice INV012 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV012"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV013, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV013"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV014, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. A detailed billing notice identified as INV014, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV014"
+    },
+    {
+        "summary": "This invoice (INV015) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. Invoice INV015 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV015"
+    },
+    {
+        "summary": "This invoice (INV016) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV016"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV017, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV017"
+    },
+    {
+        "summary": "Invoice INV018 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Invoice INV018 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV018"
+    },
+    {
+        "summary": "This invoice (INV019) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV019"
+    },
+    {
+        "summary": "This invoice (INV020) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV020"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV021, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. This invoice (INV021) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV021"
+    },
+    {
+        "summary": "This invoice (INV022) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV022"
+    },
+    {
+        "summary": "This invoice (INV023) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV023"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV024, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. Invoice INV024 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV024"
+    },
+    {
+        "summary": "Invoice INV025 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Invoice INV025 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV025"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV026, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. A detailed billing notice identified as INV026, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV026"
+    },
+    {
+        "summary": "Invoice INV027 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV027"
+    },
+    {
+        "summary": "This invoice (INV028) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV028"
+    },
+    {
+        "summary": "Invoice INV029 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Records any reference numbers or authorization codes required for internal tracking and audit. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV029"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV030, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. A detailed billing notice identified as INV030, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV030"
+    },
+    {
+        "summary": "This invoice (INV031) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. This invoice (INV031) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV031"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV032, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. A detailed billing notice identified as INV032, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV032"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV033, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. This invoice (INV033) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV033"
+    },
+    {
+        "summary": "Invoice INV034 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. This invoice (INV034) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV034"
+    },
+    {
+        "summary": "Invoice INV035 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV035"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV036, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. A detailed billing notice identified as INV036, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV036"
+    },
+    {
+        "summary": "This invoice (INV037) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. This invoice (INV037) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV037"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV038, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV038"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV039, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV039"
+    },
+    {
+        "summary": "Invoice INV040 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Invoice INV040 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV040"
+    },
+    {
+        "summary": "Invoice INV041 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. A detailed billing notice identified as INV041, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. Records any reference numbers or authorization codes required for internal tracking and audit. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV041"
+    },
+    {
+        "summary": "This invoice (INV042) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV042"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV043, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV043"
+    },
+    {
+        "summary": "Invoice INV044 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Invoice INV044 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV044"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV045, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. This invoice (INV045) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV045"
+    },
+    {
+        "summary": "Invoice INV046 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV046"
+    },
+    {
+        "summary": "This invoice (INV047) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. A detailed billing notice identified as INV047, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV047"
+    },
+    {
+        "summary": "Invoice INV048 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. This invoice (INV048) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV048"
+    },
+    {
+        "summary": "This invoice (INV049) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. Records any reference numbers or authorization codes required for internal tracking and audit. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV049"
+    },
+    {
+        "summary": "Invoice INV050 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV050"
+    },
+    {
+        "summary": "Invoice INV051 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV051"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV052, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. A detailed billing notice identified as INV052, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV052"
+    },
+    {
+        "summary": "Invoice INV053 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. A detailed billing notice identified as INV053, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV053"
+    },
+    {
+        "summary": "Invoice INV054 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV054"
+    },
+    {
+        "summary": "This invoice (INV055) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. Invoice INV055 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV055"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV056, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV056"
+    },
+    {
+        "summary": "This invoice (INV057) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV057"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV058, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. This invoice (INV058) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV058"
+    },
+    {
+        "summary": "This invoice (INV059) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. A detailed billing notice identified as INV059, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV059"
+    },
+    {
+        "summary": "This invoice (INV060) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. This invoice (INV060) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV060"
+    },
+    {
+        "summary": "Invoice INV061 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. This invoice (INV061) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV061"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV062, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. Invoice INV062 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV062"
+    },
+    {
+        "summary": "Invoice INV063 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. A detailed billing notice identified as INV063, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV063"
+    },
+    {
+        "summary": "Invoice INV064 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV064"
+    },
+    {
+        "summary": "Invoice INV065 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV065"
+    },
+    {
+        "summary": "Invoice INV066 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. A detailed billing notice identified as INV066, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV066"
+    },
+    {
+        "summary": "Invoice INV067 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Records any reference numbers or authorization codes required for internal tracking and audit. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV067"
+    },
+    {
+        "summary": "Invoice INV068 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV068"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV069, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. This invoice (INV069) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV069"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV070, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV070"
+    },
+    {
+        "summary": "Invoice INV071 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. A detailed billing notice identified as INV071, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV071"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV072, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. Invoice INV072 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV072"
+    },
+    {
+        "summary": "This invoice (INV073) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV073"
+    },
+    {
+        "summary": "This invoice (INV074) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. This invoice (INV074) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV074"
+    },
+    {
+        "summary": "Invoice INV075 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Invoice INV075 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV075"
+    },
+    {
+        "summary": "This invoice (INV076) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. A detailed billing notice identified as INV076, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV076"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV077, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. A detailed billing notice identified as INV077, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV077"
+    },
+    {
+        "summary": "This invoice (INV078) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. This invoice (INV078) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV078"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV079, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. This invoice (INV079) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. Records any reference numbers or authorization codes required for internal tracking and audit. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV079"
+    },
+    {
+        "summary": "Invoice INV080 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV080"
+    },
+    {
+        "summary": "Invoice INV081 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Invoice INV081 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV081"
+    },
+    {
+        "summary": "This invoice (INV082) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. This invoice (INV082) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV082"
+    },
+    {
+        "summary": "This invoice (INV083) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. This invoice (INV083) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. Records any reference numbers or authorization codes required for internal tracking and audit. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV083"
+    },
+    {
+        "summary": "This invoice (INV084) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. This invoice (INV084) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV084"
+    },
+    {
+        "summary": "This invoice (INV085) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. A detailed billing notice identified as INV085, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV085"
+    },
+    {
+        "summary": "A detailed billing notice identified as INV086, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV086"
+    },
+    {
+        "summary": "This invoice (INV087) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV087"
+    },
+    {
+        "summary": "This invoice (INV088) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. This invoice (INV088) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV088"
+    },
+    {
+        "summary": "This invoice (INV089) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV089"
+    },
+    {
+        "summary": "Invoice INV090 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV090"
+    },
+    {
+        "summary": "Invoice INV091 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Invoice INV091 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV091"
+    },
+    {
+        "summary": "Invoice INV092 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. A detailed billing notice identified as INV092, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. Records any reference numbers or authorization codes required for internal tracking and audit. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV092"
+    },
+    {
+        "summary": "Invoice INV093 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. A detailed billing notice identified as INV093, summarizing the products delivered, service durations, unit rates, discounts applied, and the final payable amount along with bank transfer details and contact information for billing queries. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV093"
+    },
+    {
+        "summary": "This invoice (INV094) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV094"
+    },
+    {
+        "summary": "Invoice INV095 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. This invoice (INV095) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV095"
+    },
+    {
+        "summary": "This invoice (INV096) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV096"
+    },
+    {
+        "summary": "This invoice (INV097) itemizes charges for provided services with clear line-item descriptions, subtotal, applicable taxes, shipping fees, and the grand total. It specifies payment instructions and remittance details to facilitate timely settlement. Invoice INV097 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV097"
+    },
+    {
+        "summary": "Invoice INV098 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV098"
+    },
+    {
+        "summary": "Invoice INV099 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV099"
+    },
+    {
+        "summary": "Invoice INV100 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. Invoice INV100 records a transaction between the supplier and the purchaser for goods or services provided during the billing period, listing quantities, unit prices, taxes, total amount due, and payment terms. The document indicates the invoice date, due date, and a reference to the related purchase order. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "INVOICE",
+        "doc_code": "INV100"
+    },
+    {
+        "summary": "Bank statement BS001 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS001"
+    },
+    {
+        "summary": "This monthly account statement (BS002) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. A comprehensive financial statement for account BS002 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS002"
+    },
+    {
+        "summary": "This monthly account statement (BS003) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS003"
+    },
+    {
+        "summary": "This monthly account statement (BS004) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. This monthly account statement (BS004) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Records any reference numbers or authorization codes required for internal tracking and audit. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS004"
+    },
+    {
+        "summary": "This monthly account statement (BS005) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS005"
+    },
+    {
+        "summary": "Bank statement BS006 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS006"
+    },
+    {
+        "summary": "This monthly account statement (BS007) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Records any reference numbers or authorization codes required for internal tracking and audit. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS007"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS008 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. A comprehensive financial statement for account BS008 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS008"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS009 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. This monthly account statement (BS009) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS009"
+    },
+    {
+        "summary": "Bank statement BS010 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS010"
+    },
+    {
+        "summary": "Bank statement BS011 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS011"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS012 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Bank statement BS012 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS012"
+    },
+    {
+        "summary": "This monthly account statement (BS013) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. A comprehensive financial statement for account BS013 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS013"
+    },
+    {
+        "summary": "Bank statement BS014 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS014"
+    },
+    {
+        "summary": "This monthly account statement (BS015) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Bank statement BS015 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS015"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS016 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS016"
+    },
+    {
+        "summary": "Bank statement BS017 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. A comprehensive financial statement for account BS017 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS017"
+    },
+    {
+        "summary": "This monthly account statement (BS018) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Bank statement BS018 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS018"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS019 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS019"
+    },
+    {
+        "summary": "This monthly account statement (BS020) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Bank statement BS020 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS020"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS021 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Bank statement BS021 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS021"
+    },
+    {
+        "summary": "Bank statement BS022 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS022"
+    },
+    {
+        "summary": "Bank statement BS023 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS023"
+    },
+    {
+        "summary": "Bank statement BS024 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS024"
+    },
+    {
+        "summary": "Bank statement BS025 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. Bank statement BS025 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS025"
+    },
+    {
+        "summary": "Bank statement BS026 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. A comprehensive financial statement for account BS026 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS026"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS027 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. This monthly account statement (BS027) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS027"
+    },
+    {
+        "summary": "Bank statement BS028 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS028"
+    },
+    {
+        "summary": "This monthly account statement (BS029) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS029"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS030 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. A comprehensive financial statement for account BS030 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS030"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS031 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS031"
+    },
+    {
+        "summary": "This monthly account statement (BS032) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS032"
+    },
+    {
+        "summary": "This monthly account statement (BS033) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. A comprehensive financial statement for account BS033 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Records any reference numbers or authorization codes required for internal tracking and audit. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS033"
+    },
+    {
+        "summary": "This monthly account statement (BS034) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS034"
+    },
+    {
+        "summary": "Bank statement BS035 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. A comprehensive financial statement for account BS035 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS035"
+    },
+    {
+        "summary": "This monthly account statement (BS036) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. A comprehensive financial statement for account BS036 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS036"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS037 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS037"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS038 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS038"
+    },
+    {
+        "summary": "Bank statement BS039 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. Bank statement BS039 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS039"
+    },
+    {
+        "summary": "Bank statement BS040 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS040"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS041 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Records any reference numbers or authorization codes required for internal tracking and audit. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS041"
+    },
+    {
+        "summary": "This monthly account statement (BS042) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Bank statement BS042 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS042"
+    },
+    {
+        "summary": "This monthly account statement (BS043) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS043"
+    },
+    {
+        "summary": "This monthly account statement (BS044) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS044"
+    },
+    {
+        "summary": "Bank statement BS045 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. A comprehensive financial statement for account BS045 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS045"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS046 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Records any reference numbers or authorization codes required for internal tracking and audit. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS046"
+    },
+    {
+        "summary": "This monthly account statement (BS047) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. This monthly account statement (BS047) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Records any reference numbers or authorization codes required for internal tracking and audit. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS047"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS048 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. This monthly account statement (BS048) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS048"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS049 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Bank statement BS049 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS049"
+    },
+    {
+        "summary": "Bank statement BS050 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. This monthly account statement (BS050) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS050"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS051 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS051"
+    },
+    {
+        "summary": "This monthly account statement (BS052) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS052"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS053 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. This monthly account statement (BS053) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS053"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS054 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Records any reference numbers or authorization codes required for internal tracking and audit. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS054"
+    },
+    {
+        "summary": "Bank statement BS055 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. This monthly account statement (BS055) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS055"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS056 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. A comprehensive financial statement for account BS056 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS056"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS057 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS057"
+    },
+    {
+        "summary": "This monthly account statement (BS058) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS058"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS059 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Bank statement BS059 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS059"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS060 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Bank statement BS060 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS060"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS061 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS061"
+    },
+    {
+        "summary": "This monthly account statement (BS062) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS062"
+    },
+    {
+        "summary": "Bank statement BS063 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. Records any reference numbers or authorization codes required for internal tracking and audit. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS063"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS064 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. A comprehensive financial statement for account BS064 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Records any reference numbers or authorization codes required for internal tracking and audit. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS064"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS065 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. A comprehensive financial statement for account BS065 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS065"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS066 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS066"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS067 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. A comprehensive financial statement for account BS067 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS067"
+    },
+    {
+        "summary": "Bank statement BS068 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. A comprehensive financial statement for account BS068 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS068"
+    },
+    {
+        "summary": "Bank statement BS069 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS069"
+    },
+    {
+        "summary": "Bank statement BS070 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. Bank statement BS070 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS070"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS071 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS071"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS072 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS072"
+    },
+    {
+        "summary": "This monthly account statement (BS073) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS073"
+    },
+    {
+        "summary": "Bank statement BS074 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS074"
+    },
+    {
+        "summary": "Bank statement BS075 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. A comprehensive financial statement for account BS075 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS075"
+    },
+    {
+        "summary": "This monthly account statement (BS076) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. This monthly account statement (BS076) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS076"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS077 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. This monthly account statement (BS077) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS077"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS078 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS078"
+    },
+    {
+        "summary": "This monthly account statement (BS079) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Bank statement BS079 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS079"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS080 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS080"
+    },
+    {
+        "summary": "This monthly account statement (BS081) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS081"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS082 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS082"
+    },
+    {
+        "summary": "This monthly account statement (BS083) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS083"
+    },
+    {
+        "summary": "Bank statement BS084 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. A comprehensive financial statement for account BS084 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS084"
+    },
+    {
+        "summary": "This monthly account statement (BS085) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. A comprehensive financial statement for account BS085 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS085"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS086 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. This monthly account statement (BS086) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Records any reference numbers or authorization codes required for internal tracking and audit. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS086"
+    },
+    {
+        "summary": "This monthly account statement (BS087) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS087"
+    },
+    {
+        "summary": "Bank statement BS088 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS088"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS089 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. A comprehensive financial statement for account BS089 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS089"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS090 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. A comprehensive financial statement for account BS090 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS090"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS091 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS091"
+    },
+    {
+        "summary": "A comprehensive financial statement for account BS092 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS092"
+    },
+    {
+        "summary": "This monthly account statement (BS093) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. This monthly account statement (BS093) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS093"
+    },
+    {
+        "summary": "This monthly account statement (BS094) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. This monthly account statement (BS094) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS094"
+    },
+    {
+        "summary": "Bank statement BS095 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS095"
+    },
+    {
+        "summary": "Bank statement BS096 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. This monthly account statement (BS096) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS096"
+    },
+    {
+        "summary": "Bank statement BS097 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS097"
+    },
+    {
+        "summary": "This monthly account statement (BS098) provides a chronological listing of transactions, date-wise debits and credits, checks cleared, ATM withdrawals, and end-of-period balances, helping account holders track cash flows and detect discrepancies. Records any reference numbers or authorization codes required for internal tracking and audit. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS098"
+    },
+    {
+        "summary": "Bank statement BS099 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. Bank statement BS099 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS099"
+    },
+    {
+        "summary": "Bank statement BS100 summarizes account activity over the statement period, including opening and closing balances, itemized deposits and withdrawals, interest earned, service charges, and notes on any pending transactions to reconcile the account. A comprehensive financial statement for account BS100 detailing received payments, transfers, automated debits, fees applied, and balance adjustments, with a section highlighting any overdrafts or returned items requiring attention. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "BANK_STATEMENT",
+        "doc_code": "BS100"
+    },
+    {
+        "summary": "Leave request LR001 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Leave request LR001 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR001"
+    },
+    {
+        "summary": "This request (LR002) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Leave request LR002 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Records any reference numbers or authorization codes required for internal tracking and audit. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR002"
+    },
+    {
+        "summary": "An employee leave submission labeled LR003 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Leave request LR003 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR003"
+    },
+    {
+        "summary": "Leave request LR004 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR004"
+    },
+    {
+        "summary": "This request (LR005) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR005"
+    },
+    {
+        "summary": "Leave request LR006 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. This request (LR006) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR006"
+    },
+    {
+        "summary": "An employee leave submission labeled LR007 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR007"
+    },
+    {
+        "summary": "An employee leave submission labeled LR008 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. An employee leave submission labeled LR008 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR008"
+    },
+    {
+        "summary": "Leave request LR009 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. This request (LR009) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR009"
+    },
+    {
+        "summary": "An employee leave submission labeled LR010 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR010"
+    },
+    {
+        "summary": "An employee leave submission labeled LR011 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR011"
+    },
+    {
+        "summary": "An employee leave submission labeled LR012 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Leave request LR012 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR012"
+    },
+    {
+        "summary": "Leave request LR013 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR013"
+    },
+    {
+        "summary": "This request (LR014) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. An employee leave submission labeled LR014 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR014"
+    },
+    {
+        "summary": "This request (LR015) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR015"
+    },
+    {
+        "summary": "An employee leave submission labeled LR016 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. This request (LR016) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR016"
+    },
+    {
+        "summary": "This request (LR017) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Leave request LR017 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR017"
+    },
+    {
+        "summary": "An employee leave submission labeled LR018 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR018"
+    },
+    {
+        "summary": "This request (LR019) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Records any reference numbers or authorization codes required for internal tracking and audit. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR019"
+    },
+    {
+        "summary": "This request (LR020) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Leave request LR020 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR020"
+    },
+    {
+        "summary": "This request (LR021) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. This request (LR021) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR021"
+    },
+    {
+        "summary": "Leave request LR022 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR022"
+    },
+    {
+        "summary": "Leave request LR023 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR023"
+    },
+    {
+        "summary": "This request (LR024) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Leave request LR024 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR024"
+    },
+    {
+        "summary": "Leave request LR025 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR025"
+    },
+    {
+        "summary": "Leave request LR026 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. This request (LR026) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR026"
+    },
+    {
+        "summary": "An employee leave submission labeled LR027 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. An employee leave submission labeled LR027 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Records any reference numbers or authorization codes required for internal tracking and audit. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR027"
+    },
+    {
+        "summary": "An employee leave submission labeled LR028 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR028"
+    },
+    {
+        "summary": "Leave request LR029 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Leave request LR029 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR029"
+    },
+    {
+        "summary": "Leave request LR030 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Records any reference numbers or authorization codes required for internal tracking and audit. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR030"
+    },
+    {
+        "summary": "An employee leave submission labeled LR031 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. This request (LR031) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR031"
+    },
+    {
+        "summary": "An employee leave submission labeled LR032 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR032"
+    },
+    {
+        "summary": "Leave request LR033 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Records any reference numbers or authorization codes required for internal tracking and audit. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR033"
+    },
+    {
+        "summary": "This request (LR034) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. This request (LR034) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR034"
+    },
+    {
+        "summary": "This request (LR035) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR035"
+    },
+    {
+        "summary": "This request (LR036) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Leave request LR036 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR036"
+    },
+    {
+        "summary": "An employee leave submission labeled LR037 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR037"
+    },
+    {
+        "summary": "An employee leave submission labeled LR038 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR038"
+    },
+    {
+        "summary": "An employee leave submission labeled LR039 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR039"
+    },
+    {
+        "summary": "This request (LR040) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Leave request LR040 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR040"
+    },
+    {
+        "summary": "This request (LR041) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR041"
+    },
+    {
+        "summary": "An employee leave submission labeled LR042 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR042"
+    },
+    {
+        "summary": "This request (LR043) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. This request (LR043) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR043"
+    },
+    {
+        "summary": "Leave request LR044 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR044"
+    },
+    {
+        "summary": "An employee leave submission labeled LR045 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR045"
+    },
+    {
+        "summary": "Leave request LR046 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR046"
+    },
+    {
+        "summary": "Leave request LR047 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. This request (LR047) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR047"
+    },
+    {
+        "summary": "This request (LR048) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. An employee leave submission labeled LR048 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR048"
+    },
+    {
+        "summary": "An employee leave submission labeled LR049 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. An employee leave submission labeled LR049 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR049"
+    },
+    {
+        "summary": "An employee leave submission labeled LR050 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR050"
+    },
+    {
+        "summary": "Leave request LR051 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. An employee leave submission labeled LR051 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR051"
+    },
+    {
+        "summary": "An employee leave submission labeled LR052 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Records any reference numbers or authorization codes required for internal tracking and audit. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR052"
+    },
+    {
+        "summary": "An employee leave submission labeled LR053 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Leave request LR053 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR053"
+    },
+    {
+        "summary": "Leave request LR054 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Records any reference numbers or authorization codes required for internal tracking and audit. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR054"
+    },
+    {
+        "summary": "Leave request LR055 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR055"
+    },
+    {
+        "summary": "Leave request LR056 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Leave request LR056 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR056"
+    },
+    {
+        "summary": "Leave request LR057 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. This request (LR057) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR057"
+    },
+    {
+        "summary": "An employee leave submission labeled LR058 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR058"
+    },
+    {
+        "summary": "An employee leave submission labeled LR059 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR059"
+    },
+    {
+        "summary": "Leave request LR060 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. An employee leave submission labeled LR060 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR060"
+    },
+    {
+        "summary": "This request (LR061) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. An employee leave submission labeled LR061 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR061"
+    },
+    {
+        "summary": "Leave request LR062 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR062"
+    },
+    {
+        "summary": "Leave request LR063 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Leave request LR063 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR063"
+    },
+    {
+        "summary": "Leave request LR064 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. This request (LR064) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR064"
+    },
+    {
+        "summary": "Leave request LR065 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. This request (LR065) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR065"
+    },
+    {
+        "summary": "An employee leave submission labeled LR066 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR066"
+    },
+    {
+        "summary": "Leave request LR067 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Leave request LR067 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Records any reference numbers or authorization codes required for internal tracking and audit. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR067"
+    },
+    {
+        "summary": "Leave request LR068 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. An employee leave submission labeled LR068 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR068"
+    },
+    {
+        "summary": "Leave request LR069 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR069"
+    },
+    {
+        "summary": "This request (LR070) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Records any reference numbers or authorization codes required for internal tracking and audit. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR070"
+    },
+    {
+        "summary": "This request (LR071) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. This request (LR071) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR071"
+    },
+    {
+        "summary": "This request (LR072) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. An employee leave submission labeled LR072 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR072"
+    },
+    {
+        "summary": "An employee leave submission labeled LR073 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR073"
+    },
+    {
+        "summary": "This request (LR074) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR074"
+    },
+    {
+        "summary": "An employee leave submission labeled LR075 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. An employee leave submission labeled LR075 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR075"
+    },
+    {
+        "summary": "This request (LR076) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR076"
+    },
+    {
+        "summary": "An employee leave submission labeled LR077 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR077"
+    },
+    {
+        "summary": "This request (LR078) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. An employee leave submission labeled LR078 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Records any reference numbers or authorization codes required for internal tracking and audit. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR078"
+    },
+    {
+        "summary": "This request (LR079) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. This request (LR079) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR079"
+    },
+    {
+        "summary": "This request (LR080) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR080"
+    },
+    {
+        "summary": "An employee leave submission labeled LR081 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR081"
+    },
+    {
+        "summary": "This request (LR082) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR082"
+    },
+    {
+        "summary": "Leave request LR083 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR083"
+    },
+    {
+        "summary": "An employee leave submission labeled LR084 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR084"
+    },
+    {
+        "summary": "An employee leave submission labeled LR085 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR085"
+    },
+    {
+        "summary": "Leave request LR086 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. An employee leave submission labeled LR086 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR086"
+    },
+    {
+        "summary": "An employee leave submission labeled LR087 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. This request (LR087) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR087"
+    },
+    {
+        "summary": "This request (LR088) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Leave request LR088 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR088"
+    },
+    {
+        "summary": "An employee leave submission labeled LR089 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR089"
+    },
+    {
+        "summary": "This request (LR090) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Leave request LR090 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Records any reference numbers or authorization codes required for internal tracking and audit. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR090"
+    },
+    {
+        "summary": "Leave request LR091 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. This request (LR091) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Records any reference numbers or authorization codes required for internal tracking and audit. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR091"
+    },
+    {
+        "summary": "This request (LR092) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Records any reference numbers or authorization codes required for internal tracking and audit. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR092"
+    },
+    {
+        "summary": "An employee leave submission labeled LR093 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Leave request LR093 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. Records any reference numbers or authorization codes required for internal tracking and audit.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR093"
+    },
+    {
+        "summary": "An employee leave submission labeled LR094 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR094"
+    },
+    {
+        "summary": "This request (LR095) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. An employee leave submission labeled LR095 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR095"
+    },
+    {
+        "summary": "An employee leave submission labeled LR096 describing the anticipated absence timeframe, the employee's rationale, proposed interim point-of-contact for ongoing tasks, and an approval trail for HR recordkeeping. Records any reference numbers or authorization codes required for internal tracking and audit. The summary emphasizes compliance-related notes where applicable, such as tax implications or contractual obligations.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR096"
+    },
+    {
+        "summary": "Leave request LR097 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR097"
+    },
+    {
+        "summary": "Leave request LR098 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe. The document includes contact information and identifies responsible parties for any clarification or dispute resolution.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR098"
+    },
+    {
+        "summary": "This request (LR099) outlines the type of leave requested (annual, sick, unpaid), start and end dates, work handover notes for colleagues, and any supporting information such as medical certificates or travel plans to justify the time away. Leave request LR099 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. Records any reference numbers or authorization codes required for internal tracking and audit. It highlights key dates and monetary figures so recipients can quickly see responsibilities and deadlines.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR099"
+    },
+    {
+        "summary": "Leave request LR100 documents an employee's formal application for time off, specifying requested dates, total leave duration, reason for absence, contact details during leave, and manager approval status or required coverage arrangements. The document includes contact information and identifies responsible parties for any clarification or dispute resolution. Notes any pending actions or follow-ups that the recipient must complete within the stated timeframe.",
+        "doc_type": "LEAVE_REQUEST",
+        "doc_code": "LR100"
+    }
 ]

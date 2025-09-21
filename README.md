@@ -32,8 +32,13 @@ This proof-of-concept project performs **summary classification** using **triple
 ## Features
 - **Triplet extraction** from summaries using Gemini Flash
 - **PII masking & normalization** (common nouns only)
-- **Vector DB storage and retrieval**
-- **Live evaluation** using Deepeval
+- **Sentence Transformers embeddings** for semantic similarity
+- **FAISS vector DB storage and retrieval**
+- **Comprehensive evaluation** using Deepeval framework with Gemini
+  - Classification accuracy metrics
+  - Contextual precision/recall/relevancy
+  - Faithfulness evaluation
+  - Live evaluation capabilities
 - **Agentic orchestration** using CrewAI
 - Modular architecture following **SOLID principles** and clean code practices
 
@@ -123,11 +128,15 @@ venv\Scripts\activate.bat
 pip install -r requirements.txt
 ```
 
+**Note**: The first run will download the Sentence Transformers model (~90MB), which may take a few minutes.
+
 4. Create a `.env` file (example in `.env.example`)
 
 ```text
 GEMINI_API_KEY=<your_gemini_api_key>
 VECTOR_DB_API_KEY=<your_vector_db_key>
+DEEPEVAL_ENABLED=true
+DEEPEVAL_MODEL=gemini-1.5-flash
 ```
 
 Usage (POC with CrewAI)

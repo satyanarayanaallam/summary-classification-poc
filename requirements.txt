@@ -1,2 +1,13 @@
-# Minimal requirements for development/test
+# Core requirements for summary classification POC
 pytest
+faiss-cpu
+scikit-learn
+sentence-transformers>=2.2.0
+jupyter
+notebook
+pandas
+numpy
+
+# Deepeval framework for evaluation metrics
+deepeval>=0.20.0
+google-generativeai>=0.3.0

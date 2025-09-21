@@ -1,5 +1,5 @@
 """Example POC flow (single summary run) as described in README."""
-from src.agents.crew_ai_agent import CrewAIAgent
+from agents.crew_ai_agent import CrewAIAgent
 
 
 def main():
