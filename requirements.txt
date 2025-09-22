@@ -11,3 +11,4 @@ numpy
 # Deepeval framework for evaluation metrics
 deepeval>=0.20.0
 google-generativeai>=0.3.0
+crewai
